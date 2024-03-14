@@ -30,6 +30,9 @@ export class RMenuComponent {
         stroke: {
           width: 0,
         },
+        tooltip: {
+          enabled: false,
+        },
         plotOptions: {
           pie: {
             donut: {
@@ -44,10 +47,11 @@ export class RMenuComponent {
           }
         },
         labels: ["Excellent", "Good", "Poor"],
+        colors: ['#0000FF', '#FFFF00', '#008000'],
         dataLabels: {
           dropShadow: {
-            blur: 3,
-            opacity: 0.9
+            blur: 1,
+            opacity: 0.1
           }
         },
         fill: {
@@ -65,6 +69,9 @@ export class RMenuComponent {
         },
         theme: {
           palette: 'palette2'
+        },
+        title: {
+          text: 'Donut Chart',
         },
         
         responsive: [{
