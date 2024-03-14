@@ -17,7 +17,7 @@ app-middle{
   margin: auto;
 }
 .chart{
-  width: 100%;
+  width: 99%;
   margin: 20px 0px;
 }
 select{
@@ -71,7 +71,7 @@ select option {
   margin: 10px 30px;
 }
 .data-info {
-  width: 100%;
+  width: 97%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -191,12 +191,13 @@ th ,td{
 .details{
   display: flex;
   gap: 30px;
+  justify-content: space-around;
 }
 app-l-menu{
-  width: 200px;
+  width: 190px;
 }
 app-r-menu{
-  width: 400px;
+  width: 330px;
 }
 .appointment ul{
   list-style: disc;
