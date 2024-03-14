@@ -145,7 +145,7 @@ ul li a{
     border-radius: 8px;
     display: flex;
     align-items: center;
-    gap: 45px;
+    gap: 15px;
     transition: .5s;
 }
 ul li a:hover , .active, .data-info .box:hover{
