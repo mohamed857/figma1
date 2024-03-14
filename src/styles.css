@@ -198,6 +198,7 @@ app-l-menu{
 }
 app-r-menu{
   width: 330px;
+  margin:0 auto;
 }
 .appointment ul{
   list-style: disc;
