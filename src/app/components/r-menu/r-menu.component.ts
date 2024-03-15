@@ -16,7 +16,7 @@ export class RMenuComponent {
     this.chartOptions = {
       series: [65, 35, 30],
           chart: {
-          width: 350,
+          width: 300,
           type: 'donut',
           dropShadow: {
             enabled: true,

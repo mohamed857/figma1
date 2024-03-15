@@ -182,11 +182,12 @@ ul li a i{
 
 table{
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
   /* border-collapse: separate; */
   /* border-spacing: 5px; */
 }
 th ,td{
+  padding-left: 20px;
   height: 60px;
   background-color: #0B1739;
   margin: 100px;

@@ -23,7 +23,7 @@ export class ChartComponent {
     chart: {
       type: 'areaspline',
       backgroundColor:'#0B1739',
-      height: 400 // Set the height of the chart
+      height: 200 // Set the height of the chart
     },
     title: {
       text: 'patien Vist',
