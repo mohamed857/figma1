@@ -15,6 +15,7 @@
 app-middle{
   width: 70%;
   margin: auto;
+  flex-grow: 1;
 }
 .chart{
   width: 99%;
@@ -147,6 +148,8 @@ ul{
     list-style: none;
     position: relative;
     height: 95%;
+    width: 100%;
+    /* margin: auto; */
 }
 ul li a{
     display: block;
@@ -158,6 +161,8 @@ ul li a{
     align-items: center;
     gap: 15px;
     transition: .5s;
+    width: 170px;
+    /* padding: 5px 30px; */
 }
 ul li a:hover , .active, .data-info .box:hover{
     background-color: #ffffff55;
@@ -199,10 +204,10 @@ th ,td{
   justify-content: space-around;
 }
 app-l-menu{
-  width: 190px;
+  width: 280px;
 }
 app-r-menu{
-  width: 330px;
+  width: 400px;
   margin:0 auto;
 }
 .appointment ul{
